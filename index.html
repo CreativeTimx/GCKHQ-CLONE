@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gckhq-clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+    <nav class=" bg-white shadow-lg py-3 lg:p-3 lg:flex items-center justify-between">
+
+        <div class="mr-12 flex justify-between items-center">
+            <img src="gckLG.png" class="w-28 md:w-44 cursor-pointer">
+
+            <ion-icon name="menu-outline" class="text-3xl bg-gray-300 rounded cursor-pointer lg:hidden" onclick="menu(this)"></ion-icon>
+
+            <button class="bg-gray-300 py-1 px-2 rounded lg:hidden"><ion-icon name="search-outline" class="text-3xl font-bold"></ion-icon></button>
+        </div>
+
+        <ul class="Navbar lg:flex items-center absolute lg:static z-[1] lg:z-auto bg-white left-0 w-full lg:w-auto  lg:pl-0 pt-2 lg:pt-0 lg:mt-0  opacity-0 lg:opacity-100 ease-in-out duration-500">
+            <li class="px-5 lg:px-5 py-3 lg:text-cyan-600 font-semibold font-sans text-sm lg:text-md cursor-pointer lg:hover:text-gray-600 lg:border-b-2 lg:border-yellow-600 lg:bg-white bg-gray-600 text-white">HOME</li>
+            <li class="px-5 lg:px-5 py-3 lg:text-cyan-600 font-semibold font-sans text-sm lg:text-md cursor-pointer lg:hover:text-gray-600 lg:border-b-2 border-white lg:hover:border-yellow-600 hover:lg:bg-white hover:bg-gray-600 text-gray-700 hover:text-white">ABOUT US</li>
+            <li class="px-5 lg:px-5 py-3 lg:text-cyan-600 font-semibold font-sans text-sm lg:text-md cursor-pointer lg:hover:text-gray-600 lg:border-b-2 border-white lg:hover:border-yellow-600 hover:lg:bg-white hover:bg-gray-600 text-gray-700 hover:text-white">SERMONS</li>
+            <li class="px-5 lg:px-5 py-3 lg:text-cyan-600 font-semibold font-sans text-sm lg:text-md cursor-pointer lg:hover:text-gray-600 lg:border-b-2 border-white lg:hover:border-yellow-600 hover:lg:bg-white hover:bg-gray-600 text-gray-700 hover:text-white">TESTIMONY</li>
+            <li class="px-5 lg:px-5 py-3 lg:text-cyan-600 font-semibold font-sans text-sm lg:text-md cursor-pointer lg:hover:text-gray-600 lg:border-b-2 border-white lg:hover:border-yellow-600 hover:lg:bg-white hover:bg-gray-600 text-gray-700 hover:text-white">PARTNER</li>
+            <li class="px-5 lg:px-5 py-3 lg:text-cyan-600 font-semibold font-sans text-sm lg:text-md cursor-pointer lg:hover:text-gray-600 lg:border-b-2 border-white lg:hover:border-yellow-600 hover:lg:bg-white hover:bg-gray-600 text-gray-700 hover:text-white">CONTACT</li>
+            <li class="px-5 lg:px-5 py-3 lg:text-cyan-600 font-semibold font-sans text-sm lg:text-md cursor-pointer lg:hover:text-gray-600 lg:border-b-2 border-white lg:hover:border-yellow-600 hover:lg:bg-white hover:bg-gray-600 text-gray-700 hover:text-white">DONATE</li>
+
+            
+        </ul>
+        
+        <button class="bg-gray-300 py-1 px-2 rounded lg:flex hidden"><ion-icon name="search-outline" class="text-xl md:text-3xl font-bold"></ion-icon></button>
+    </nav>
+
+    <section id="bannerImg">
+        <img src="banner.jpg" class="w-full h-screen w">
+    </section>
+    
+    <section class="bg-blue-100 px-2 pb-10">
+        <div class="rounded-2xl p-5 bg-white w-full md:w-3/4 lg:w-2/3 xl:w-1/2 relative left-1/2 right-1/2 -translate-x-1/2 bottom-20">
+            <p class=" text-center text-gray-800 text-md lg:text-xl xl:text-2xl font-sans font-bold my-5">Join over 3,000,000 Global Audience for a <br>refreshing moment with God.</p>
+        </div>
+
+        <div class="py-5 px-2 xl:px-20 flex flex-col md:flex-row items-center">
+            <div class="">
+                <img src="pastor.jpeg" class="w-full md:w-5/6">
+            </div>
+
+            <div class=" w-full px-7 md:px-0 md:w-3/4 mt-5 md:mt-0">
+                <h1 class="text-3xl font-bold font-sans mb-5 text-cyan-700">About GCK</h1>
+                <h3 class="font-semibold text-lg text-gray-900 mb-3">Brand Slogan</h3>
+                <p class="text-gray-700 text-lg mb-2"><i>…The gospel to every creature,</i></p>
+                <p class="text-gray-700 text-lg mb-3">
+                    The Global Crusade was birthed out of the need to further share the good news of 
+                    Christ. Christ saves from sin, delivers from destruction, 
+                    heals regardless of the disease, and provides His children with an eternal home. 
+                </p>
+                <h3 class="font-semibold text-lg text-gray-900 mb-5">Mission Statement</h3>
+                <p class="text-gray-700 text-lg mb-3">While Jesus was here on earth, He was continually doing good, turning sorrow to laughter, 
+                    poverty to wealth, and unsaved to saved. The global crusade’s 
+                    mission is to lead its participants to Christ so they can get solutions to whatever need they have.
+                </p>
+                <h3 class="font-semibold text-lg text-gray-900 mb-3">Brand Purpose</h3>
+                <p class="text-gray-700 text-lg mb-5">Changing Lives through Christ</p>
+
+                <button class="text-cyan-700 border-2 border-yellow-500 rounded py-2 px-5">READ MORE</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-10">
+        <div class="container mx-auto w-11/12 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+            <div class=" bg-slate-100 shadow">
+                <img src="Connect1.jpg" class="hover:opacity-50 ease-in-out duration-500">
+                <div class="px-2 flex flex-col items-center justify-center">
+                    <h1 class=" mt-5 mb-3 text-cyan-700 font-extrabold text-lg">CONNECT WITH CHRIST</h1>
+                    <p class="text-center text-md font-light mb-10">Now that you’ve decided to connect with Christ, 
+                    we want to help you grow and remain with Christ. 
+                    Share your details with us.
+                    </p>
+                    <button class="bg-yellow-400 text-white font-bold py-3 px-10 mb-7 hover:bg-black ease-in-out duration-500">Connect
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 inline-block ml-2">
+                            <path fill-rule="evenodd" d="M12.78 7.595a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06l2.72-2.72-2.72-2.72a.75.75 0 0 1 1.06-1.06l3.25 3.25Zm-8.25-3.25 3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06l2.72-2.72-2.72-2.72a.75.75 0 0 1 1.06-1.06Z" clip-rule="evenodd" />
+                          </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <div class=" bg-slate-100 shadow">
+                <img src="Connect2.jpg" class="hover:opacity-50 ease-in-out duration-500">
+                <div class="px-2 flex flex-col items-center justify-center">
+                    <h1 class=" mt-5 mb-3 text-cyan-700 font-extrabold text-lg">GCK DAILY</h1>
+                    <p class="text-center text-md font-light mb-10">The GCK Daily is a short 15 minutes series of the Global 
+                        Crusade with Kumuyi. It tells a compelling Power of Jesus such that 
+                        it invokes a feeling of Faith, Hope, Healing, Salvation & Excitement.
+                    </p>
+                    <button class="bg-yellow-400 text-white font-bold py-3 px-10 mb-7 hover:bg-black ease-in-out duration-500">Watch Now
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-5 h-5 inline-block ml-2">
+                            <path d="M3 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h5a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H3ZM15 4.75a.75.75 0 0 0-1.28-.53l-2 2a.75.75 0 0 0-.22.53v2.5c0 .199.079.39.22.53l2 2a.75.75 0 0 0 1.28-.53v-6.5Z" />
+                          </svg>
+                          
+                    </button>
+                </div>
+            </div>
+            <div class=" bg-slate-100 shadow">
+                <img src="Connect3.jpg" class="hover:opacity-50 ease-in-out duration-500">
+                <div class="px-2 flex flex-col items-center justify-center">
+                    <h1 class=" mt-5 mb-3 text-cyan-700 font-extrabold text-lg">REGISTER FOR GCK</h1>
+                    <p class="text-center text-md font-light mb-10">You can now access the evening crusades, 
+                        Minsters’ Conference, and IMPACT for youth. Complete this short registration and 
+                        get information on upcoming events.
+                    </p>
+                    <button class="bg-yellow-400 text-white font-bold py-3 px-10 mb-7 hover:bg-black ease-in-out duration-500">Register Now
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 inline-block ml-2">
+                            <path fill-rule="evenodd" d="M12.78 7.595a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06l2.72-2.72-2.72-2.72a.75.75 0 0 1 1.06-1.06l3.25 3.25Zm-8.25-3.25 3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06l2.72-2.72-2.72-2.72a.75.75 0 0 1 1.06-1.06Z" clip-rule="evenodd" />
+                          </svg>
+                    </button>
+                </div>
+            </div>
+            <div class=" bg-gray-100 shadow ">
+                <img src="Connect4.jpg" class="hover:opacity-50 ease-in-out duration-500">
+                <div class="px-2 flex flex-col items-center justify-center">
+                    <h1 class=" mt-5 mb-3 text-cyan-700 font-extrabold text-lg">GCK TV</h1>
+                    <p class="text-center text-md font-light mb-10">A weekly 30-minute program on US, Canadian, 
+                        and other global TV channels. It gives millions of viewers the hope, love, salvation, 
+                        and healing Jesus Christ offers all believers.
+                    </p>
+                    <button class="bg-yellow-400 text-white font-bold py-3 px-10 mb-7 hover:bg-black ease-in-out duration-500">Watch Here
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 inline-block ml-2">
+                            <path fill-rule="evenodd" d="M12.78 7.595a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06l2.72-2.72-2.72-2.72a.75.75 0 0 1 1.06-1.06l3.25 3.25Zm-8.25-3.25 3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06l2.72-2.72-2.72-2.72a.75.75 0 0 1 1.06-1.06Z" clip-rule="evenodd" />
+                          </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-20 px-3 md:px-3 lg:px-5 xl:px-28 bg-cyan-700">
+        <div class="mb-14">
+            <h1 class="text-white text-4xl font-semibold mb-5">Sermons</h1>
+
+            <p class="text-white text-lg">The Messages from the Global Crusade with Kiumuyi are filled with Life, Hope, Salvation, 
+                and the Healing power of God. You can now explore these messages by the Convener, 
+                Pastor Dr. W.F. Kumuyi to strengthen your relationship with God and enjoy the fulness 
+                of Christ’s healing power!
+            </p>
+        </div>
+
+        <div class="grid grid-flow-row grid-col-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+            <div class="p-7 bg-white rounded-lg shadow border-r-8 border-yellow-500">
+                <h1 class="text-2xl font-semibold text-cyan-700 mb-4">Total <br>Emancipation</h1>
+                <p class="text-cyan-700 text-lg mb-4">All-round Emancipation through the Look of Faith</p>
+                <p class="text-cyan-700 text-lg mb-8">July 28, 2022 | Day 1</p>
+
+                <div class="my-5">
+                    <button class="bg-yellow-500 text-white py-3 px-10 lg:px-6 xl:px-10 mr-3 rounded">Watch
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-5 h-5 inline-block ml-1">
+                            <path d="M3 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h5a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H3ZM15 4.75a.75.75 0 0 0-1.28-.53l-2 2a.75.75 0 0 0-.22.53v2.5c0 .199.079.39.22.53l2 2a.75.75 0 0 0 1.28-.53v-6.5Z" />
+                          </svg>
+                    </button>
+                    <button class="border-2 border-yellow-500 text-cyan-700 py-2 px-6 mr-3 rounded">Listen</button>
+                </div>
+            </div>
+            <div class="p-7 bg-white rounded-lg shadow border-r-8 border-yellow-500">
+                <h1 class="text-2xl font-semibold text-cyan-700 mb-4">Total <br>Emancipation</h1>
+                <p class="text-cyan-700 text-lg mb-4">Discovering Dynamic Men for a Nation’s Darkest Hour</p>
+                <p class="text-cyan-700 text-lg mb-8">July 29, 2022 | Day 2</p>
+
+                <div class="my-5">
+                    <button class="bg-yellow-500 text-white py-3 px-10 lg:px-6 xl:px-10 mr-3 rounded">Watch
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-5 h-5 inline-block ml-1">
+                            <path d="M3 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h5a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H3ZM15 4.75a.75.75 0 0 0-1.28-.53l-2 2a.75.75 0 0 0-.22.53v2.5c0 .199.079.39.22.53l2 2a.75.75 0 0 0 1.28-.53v-6.5Z" />
+                          </svg>
+                    </button>
+                    <button class="border-2 border-yellow-500 text-cyan-700 py-2 px-6 mr-3 rounded">Listen</button>
+                </div>
+            </div><div class="p-7 bg-white rounded-lg shadow border-r-8 border-yellow-500">
+                <h1 class="text-2xl font-semibold text-cyan-700 mb-4">Total <br>Emancipation</h1>
+                <p class="text-cyan-700 text-lg mb-4">Assured Emancipation by Christ’s Prevailing Authority</p>
+                <p class="text-cyan-700 text-lg mb-8">Jun 25, 2022 | Day 3</p>
+
+                <div class="my-5">
+                    <button class="bg-yellow-500 text-white py-3 px-10 lg:px-6 xl:px-10 mr-3 rounded">Watch
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-5 h-5 inline-block ml-1">
+                            <path d="M3 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h5a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H3ZM15 4.75a.75.75 0 0 0-1.28-.53l-2 2a.75.75 0 0 0-.22.53v2.5c0 .199.079.39.22.53l2 2a.75.75 0 0 0 1.28-.53v-6.5Z" />
+                          </svg>
+                    </button>
+                    <button class="border-2 border-yellow-500 text-cyan-700 py-2 px-6 mr-3 rounded">Listen</button>
+                </div>
+            </div><div class="p-7 bg-white rounded-lg shadow border-r-8 border-yellow-500">
+                <h1 class="text-2xl font-semibold text-cyan-700 mb-4">Supernatural <br>Deliverance</h1>
+                <p class="text-cyan-700 text-lg mb-4">Amen, Now, Henceforth and Forever</p>
+                <p class="text-cyan-700 text-lg mb-8">Jun 26, 2022 | Day 4</p>
+
+                <div class="my-5">
+                    <button class="bg-yellow-500 text-white py-3 px-10 lg:px-6 xl:px-10 mr-3 rounded">Watch
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-5 h-5 inline-block ml-1">
+                            <path d="M3 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h5a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H3ZM15 4.75a.75.75 0 0 0-1.28-.53l-2 2a.75.75 0 0 0-.22.53v2.5c0 .199.079.39.22.53l2 2a.75.75 0 0 0 1.28-.53v-6.5Z" />
+                          </svg>
+                    </button>
+                    <button class="border-2 border-yellow-500 text-cyan-700 py-2 px-6 mr-3 rounded">Listen</button>
+                </div>
+            </div>
+            <div class="p-7 bg-white rounded-lg shadow border-r-8 border-yellow-500">
+                <h1 class="text-2xl font-semibold text-cyan-700 mb-4">Supernatural <br>Deliverance</h1>
+                <p class="text-cyan-700 text-lg mb-4">The Wonders of Godswill and Goodness</p>
+                <p class="text-cyan-700 text-lg mb-8">Jun 27, 2022 | Day 5</p>
+
+                <div class="my-5">
+                    <button class="bg-yellow-500 text-white py-3 px-10 lg:px-6 xl:px-10 mr-3 rounded">Watch
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-5 h-5 inline-block ml-1">
+                            <path d="M3 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h5a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H3ZM15 4.75a.75.75 0 0 0-1.28-.53l-2 2a.75.75 0 0 0-.22.53v2.5c0 .199.079.39.22.53l2 2a.75.75 0 0 0 1.28-.53v-6.5Z" />
+                          </svg>
+                    </button>
+                    <button class="border-2 border-yellow-500 text-cyan-700 py-2 px-6 mr-3 rounded">Listen</button>
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+                <button class="border-2 border-yellow-500 text-white py-2 px-6 mr-3 rounded">View More</button>
+            </div>
+           
+        </div>
+
+    </section>
+
+    <section class="bg-white px-3 md:px-5 lg:px-10 xl:px-28 py-20">
+        <h1 class="text-cyan-700 font-bold text-4xl mb-14">Testimonies</h1>
+
+        <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-center">
+            <div class="p-5 bg-blue-100 rounded-lg shadow">
+                <h3 class="my-8 font-bold text-lg">Healed of a Sharp Pain</h3>
+                <p class="text-sm text-gray-700">On the 1st of April, she experienced a sharp pain after trying to put a baby down. She got home and felt the pain again. 
+                    Someone researched online and told her that this kind of pain is associated with kidney disease. She ignored it and believed in God for her healing. 
+                    During the Easter Retreat, after the message on Jesus, Our Passover, The man of God prayed specifically for people experiencing internal problems. 
+                    She received her healing and was made whole. The pain has not returned since then. Praise the Lord!
+                </p>
+                <h3 class="my-5 italic font-semibold text-lg">Adedigba Omolaso</h3>
+            </div>
+
+            <div class="p-5 bg-blue-100 rounded-lg shadow">
+                <h3 class="my-8 font-bold text-lg">Difficulty in Urination disappeared</h3>
+                <p class="text-sm text-gray-700">
+                    For 28 years now, she has been feeling having a sensation of a crawling object in her body. 
+                    She has also been experiencing difficulty in urination. 
+                    She believed in God and kept telling him that she doesn’t pay for urine and He should heal her. 
+                    She refused to use any medication but kept trusting God. 
+                    God visited her in this programme and that ailment disappeared. Praise the Lord!
+                </p>
+                <h3 class="mt-20 italic font-semibold text-lg">Felicia Williams</h3>
+            </div>
+
+            <div class="p-5 bg-blue-100 rounded-lg shadow">
+                <h3 class="my-8 font-bold text-lg">Glaucoma Gone</h3>
+                <p class="text-sm text-gray-700">
+                    About 5 years ago, Bro Mike had a stroke that affected many parts of his body, 
+                    especially his eyes, and this prevented him from seeing properly. He was advised to go get an eyeglass, 
+                    without which he could not see. Yesterday night, 
+                    after the prayers of the man of God he got his healing and can now see clearly unaided. Praise God
+                </p>
+                <h3 class="mt-24 italic font-semibold text-lg">Mike Ukporo</h3>
+            </div>
+
+            <div class="p-5 bg-blue-100 rounded-lg shadow">
+                <h3 class="my-8 font-bold text-lg">Urinary Tract Infection Gone</h3>
+                <p class="text-sm text-gray-700">
+                    Five months ago, Stella got infected with Urinary Tract Infection which resulted into frequent body itches. 
+                    After the prayers on the man of God, she got healed
+                </p>
+                <h3 class="mt-40 mb-5 italic font-semibold text-lg">Adedigba Omolaso</h3>
+            </div>
+
+            <div class="p-5 bg-blue-100 rounded-lg shadow">
+                <h3 class="my-8 font-bold text-lg">Swollen Stomach Healed</h3>
+                <p class="text-sm text-gray-700">
+                    Her daughter had a baby and after the second week, she noticed that the child’s stomach was 
+                    abnormally swollen.  On visiting the hospital, he was diagnosed with a disease that required operation. 
+                    During the Miracle Explosion Crusade, Sis Mercy prayed and the baby was healed of the disease. <br><br>Praise the Lord
+                </p>
+                <h3 class="mt-20 mb-5 italic font-semibold text-lg">Mercy Benson</h3>
+            </div>
+
+            <div class="p-5 bg-blue-100 rounded-lg shadow">
+                <h3 class="my-8 font-bold text-lg">Stroke Healed</h3>
+                <p class="text-sm text-gray-700">
+                    She woke up on the 11th of January, 2022, and noticed that the left side of her body had gone numb. 
+                    She went to the hospital and she was diagnosed with partial stroke. She was advised to refrain from worrying. 
+                    During the last global crusade, she received healing on her hands and legs but her face was still stiff. 
+                    She kept praying for total healing and after the prayer of the man of God, she felt that her face was no longer stiff. Praise God!
+                </p>
+                <h3 class="mt-14 mb-5 italic font-semibold text-lg">Marvelous Sunday</h3>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <section class="bg-cyan-700 px-2 md:px-5 lg:px-10 xl:px-28 pt-2 pb-16">
+        <div class="bg-blue-100 px-2 md:px-10 py-10 rounded-lg w-full mb-20">
+            <h1 class="text-cyan-700 font-extrabold text-3xl text-center mb-10">Get GCK Books</h1>
+            
+            <div class="flex md:flex-row flex-col justify-between items-center">
+                <img src="book1.jpeg" class="w-full md:w-2/5 md:mb-0 mb-10">
+                <img src="book2.jpg" class="w-full md:w-2/5">
+            </div>
+        </div>
+
+        <div class="flex items-center justify-center mb-10">
+            <img src="White-GCK.png" class="w-44">
+        </div>
+        <div class="flex items-center lg:justify-center">
+            <ul class="lg:flex w-full lg:w-auto">
+                <li class="px-4 py-2 text-white font-bold lg:font-normal lg:text-yellow-500 text-sm lg:text-lg lg:border-b-2 lg:border-gray-800 bg-gray-600 lg:bg-cyan-700 cursor-pointer">HOME</li>
+                <li class="px-4 py-2 text-white font-bold lg:font-normal lg:text-yellow-500 lg:text-lg text-sm lg:hover:border-b-2 lg:hover:border-gray-800 cursor-pointer hover:bg-gray-600 hover:lg:bg-cyan-700">ABOUT US</li>
+                <li class="px-4 py-2 text-white font-bold lg:font-normal lg:text-yellow-500 lg:text-lg text-sm lg:hover:border-b-2 lg:hover:border-gray-800 cursor-pointer hover:bg-gray-600 hover:lg:bg-cyan-700">TESTIMONY</li>
+                <li class="px-4 py-2 text-white font-bold lg:font-normal lg:text-yellow-500 lg:text-lg text-sm lg:hover:border-b-2 lg:hover:border-gray-800 cursor-pointer hover:bg-gray-600 hover:lg:bg-cyan-700">PARTNER</li>
+                <li class="px-4 py-2 text-white font-bold lg:font-normal lg:text-yellow-500 lg:text-lg text-sm lg:hover:border-b-2 lg:hover:border-gray-800 cursor-pointer hover:bg-gray-600 hover:lg:bg-cyan-700">CONTACT</li>
+                <li class="px-4 py-2 text-white font-bold lg:font-normal lg:text-yellow-500 lg:text-lg text-sm lg:hover:border-b-2 lg:hover:border-gray-800 cursor-pointer hover:bg-gray-600 hover:lg:bg-cyan-700">DONATE</li>
+            </ul>
+        </div>
+        <p class="text-center my-5 text-white text-sm md:text-lg">© Copyright DCLM 2022. All Right Reserved. Designed and Developed by DCLM MEDIA DEPARTMENT</p>
+
+        <div class="text-white flex justify-center">
+            <a href="#" class="px-4 text-2xl"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#" class="px-4 text-2xl"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#" class="px-4 text-2xl"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+
+    </section>
+
+
+    
+    
+    
+    
+    
+    <script>
+        const Navbar = document.querySelector('.Navbar');
+
+        function menu(e){
+            e.name = e.name === 'menu-outline' ? 'close-outline' : 'menu-outline';
+
+            Navbar.classList.toggle('opacity-100');
+        }
+    </script>
+</body>
+</html>
